@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="creer.css">
+    <title>+ Créer</title>
+</head>
+
+<body>
+
+    <!-- Début de la section HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../public/favicon.png" alt="logo du site">
+            </div>
+
+            <ul class="nav-header">
+                <li><a href="./homePage.html">Accueil</a></li>
+                <li><a href="./movie.html">Films</a></li>
+                <li><a href="./recette.html">Recettes</a></li>
+                <li><a href="./connexion.html">Connexion</a></li>
+                <li><a href="./inscrption.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Début de la section MAIN -->
+    <main>
+        <h1>NOUVELLE RECETTE</h1>
+
+        <h2>SELECTIONNER UN FILM OU UNE SERIE TELEVISEE</h2>
+
+        <div class="container-new-recipe">
+            <form action="new-recipe">
+                <label for="title">Titre*</label>
+                <input type="text">
+        </div>
+        <div class="choise">
+            <div class="categorie">
+                <label for="categorie">Cétagorie</label>
+                <select class="option-sujet" name="sujet" id="sujet" required>
+                    <option value="" désactivé sélectionné>-- Sélectionner... --</option>
+                    <option value="1">Entrée</option>
+                    <option value="2">Plat principal</option>
+                    <option value="3">Dessert</option>
+                    <option value="4">Boisson</option>
+                </select>
+            </div>
+
+            <div class="movie-serie">
+                <label for="movie/serie">Film/Série</label>
+                <select class="option-sujet" name="sujet" id="sujet" required>
+                    <option value="" désactivé sélectionné>-- Sélectionner... --</option>
+                    <option value="1">Ratatouille</option>
+                    <option value="2">The Godfather</option>
+                    <option value="3">Julie & Julia/option>
+                    <option value="4">Breaking Bad</option>
+                    <option value="5">Game of Thrones</option>
+                    <option value="6">Pulp Fiction</option>
+                    <option value="7">Amélie</option>
+                    <option value="8">Chocolat</option>
+                    <option value="9">Big Night</option>
+                    <option value="10">Le festin de Babette</option>
+                    <option value="12">Mange Boire homme femme</option>
+                    <option value="13">Willy Wonka</option>
+                    <option value="14">Game of Thrones</option>
+                    <option value="15">Le Grand Hôtel Budapest</option>
+                    <option value="16">La soupe au choux</option>
+                    <option value="17">Harry Potter et la coupe du feu</option>
+                    <option value="18">Harry Potter l'école des sorciers</option>
+                    <option value="19">Vaiana 2</option>
+                    <option value="20">Némo</option>
+                    <option value="21">Docto Who: Le seigneur du temps</option>
+                    <option value="22">Squid Gae: Le making-of de la saison 2</option>
+                    <option value="23">Le roi lion</option>
+                    <option value="24">Encanto</option>
+                    <option value="25">Aladin</option>
+                    <option value="26">La reine des neiges 2</option>
+                    <option value="27">Rebelles</option>
+                    <option value="28">Vice-versa 2</option>
+                    <option value="29">Super Mario galaxy</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="url">
+            <label for="url-img">URL de l'image</label>
+            <input type="text" id="message" name="http://..." required">
+        </div>
+        <div class="description">
+            <label for="description">Description</label>
+            <input type="">
+        </div>
+        <div class="ingredients">
+            <label for="ingreditents">Ingreditents*</label>
+            <input type="text">
+        </div>
+        <div class="instructions">
+            <label for="insctrutions">Instructions*</label>
+            <input type="1.">
+        </div>
+
+        <div class="button-new-recipe">
+            <button class="annuler" type="button">Annuler</button>
+            <button class="creation" type="button">Créer une recette</button>
+        </div>
+    </main>
+
+    <!-- Début de la setion FOOTER -->
+    <footer>
+
+        <div class="footer-film-strip">
+            <div class="barre"></div>
+        </div>
+
+        <div class="footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="../public/facebook (1).png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="../public/instagram (1).png" alt="instagram"></a>
+                <a href="https://x.com/"><img src="../public/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/"><img src="../public/youtube (1).png" alt="youtube"></a>
+            </div>
+        </div>
+
+        <h2 class="news">Newsletter</h2>
+
+        <form class="newsletter">
+            <input type="email" placeholder="ton@email.com" required>
+            <button class="newsletter-submit" type="submit">SUBSCRIBE</button>
+        </form>
+
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="./about.html">A propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./privacy.html">Politiques de confidentialité</a></li>
+                <li><a href="./condition.html">Condition d'utilisation</a></li>
+            </ul>
+        </nav>
+
+        <div class="mention-légal">
+            <li>© Ciné Délices. Tous droits réservés. Expériences culinaires cinématographique.</li>
+        </div>
+    </footer>
+    <!-- Fin de la section FOOTER -->
+</body>
+
+</html>

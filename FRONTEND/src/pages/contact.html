@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <!-- Début de la section HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../public/favicon.png" alt="logo du site">
+            </div>
+
+            <ul class="nav-header">
+                <li><a href="./homePage.html">Accueil</a></li>
+                <li><a href="./movie.html">Films</a></li>
+                <li><a href="./recette.html">Recettes</a></li>
+                <li><a href="./connexion.html">Connexion</a></li>
+                <li><a href="./inscrption.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- PARTIE MAIN -->
+<main>
+
+    <h1 class="title-form-contact">📬 CONTACTER-NOUS</h1>
+    <P> Nous serions ravis d'avoir de vos nouvelles</P>
+
+    <div class="container-contact">
+        <div class="container-form">
+            <form action="contact" method="post">
+                <label class="nom" for="Nom">Ton nom</label>
+                <input type="text" id="nom" name="Ton nom" required>
+
+                <label class="email" for="Email">Ton@email.com</label>
+                <input type="text" id="email" name="Ton email" required>
+
+                <div class="menu-sujet">
+                    <label for="Sujet">Sujet</label>
+                    <select class="option-sujet" name="sujet" id="sujet" required>
+                        <option value="" désactivé sélectionné>-- choisis un sujet... --</option>
+                        <option value="1">Enquête générale</option>
+                        <option value="2">Retour d'information</option>
+                        <option value="3">Rapport de bug</option>
+                        <option value="4">Suggestion de recettes</option>
+                        <option value="5">Partenariat</option>
+                    </select>
+                </div>
+
+                <label for="Message"></label>
+                <input class="container-message" type="text" id="message" name="Ton message" required>
+
+                <button class="submit" type="submit">ENVOYER UN MESSAGE</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-email">
+        <img class="img-email" src="../public/email.png" alt="logo d'email">
+        <h2 class="title-email">EMAIL</h2>
+        <p>hello@cinedelices.com</p>
+    </div>
+
+    <div class="container-social-media">
+        <img class="img-inteface-reseaux" src="../public/cercle.png" alt="logo d'une interface en forme de planète">
+        <h2 class="title-reseaux-sociaux">RÉSEAUX SOCIAUX</h2>
+        <div class="social-icons-container">
+            <li><a href="https:/www.x.com/"><img src="../public/twitter.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/"><img src="../public/instagram (1).png" alt="instagram"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="../public/facebook (1).png" alt="facebook"></a></li>
+        </div>
+    </div>
+
+    <div class="container-feedback">
+        <img class="img-feedback" src="../public/ampoule.png" alt="logo d'une ampoule">
+        <h2 class="title-feedback">FEEDBACK</h2>
+        <P>Vous avez une suggestion de recette ou troubé un bug ? Dites-le-nous !</P>
+    </div>
+
+</main>
+<!-- FIN MAIN -->
+
+    <!-- Début de la setion FOOTER -->
+    <footer>
+
+        <div class="footer-film-strip">
+            <div class="barre"></div>
+        </div>
+
+        <div class="footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="../public/facebook (1).png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="../public/instagram (1).png"
+                        alt="instagram"></a>
+                <a href="https://x.com/"><img src="../public/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/"><img src="../public/youtube (1).png" alt="youtube"></a>
+            </div>
+        </div>
+
+        <h2 class="news">Newsletter</h2>
+
+        <form class="newsletter">
+            <input type="email" placeholder="ton@email.com" required>
+            <button class="newsletter-submit" type="submit">SUBSCRIBE</button>
+        </form>
+
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="./about.html">A propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./privacy.html">Politiques de confidentialité</a></li>
+                <li><a href="./condition.html">Condition d'utilisation</a></li>
+            </ul>
+        </nav>
+
+        <div class="mention-légal">
+            <li>© Ciné Délices. Tous droits réservés. Expériences culinaires cinématographique.</li>
+        </div>
+    </footer>
+    <!-- Fin de la section FOOTER -->
+</body>
+
+</html>

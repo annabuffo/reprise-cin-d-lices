@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Inscription</title>
+</head>
+
+<body>
+
+    <!-- Début de la section HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../public/favicon.png" alt="logo du site">
+            </div>
+
+            <ul class="nav-header">
+                <li><a href="./homePage.html">Accueil</a></li>
+                <li><a href="./movie.html">Films</a></li>
+                <li><a href="./recette.html">Recettes</a></li>
+                <li><a href="./connexion.html">Connexion</a></li>
+                <li><a href="./inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Fin de la section HEADER -->
+
+    <!-- Début du MAIN -->
+    <main>
+        <div class="container-register">
+            <h2 class="title-register">INSCRIPTION</h2>
+            <form action="inscription" method="post">
+                <label for="nom">Nom d'utilisateur</label>
+                <input type="text" id="nom" name="user_nom" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="user_email" required>
+
+                <label for="password">Mot de passe</label>
+                <input type="text" id="" name="" required>
+
+                <label for="password">Confirmation mot de passe</label>
+                <input type="text" id="" name="" required>
+
+                <button class="button_form_register" type="submit">Inscription</button>
+            </form>
+            <p>Vous avez déjà un compte ?<a href="/connexion.html">Connectez-vous</a></p>
+        </div>
+
+    </main>
+    <!-- Fin du MAIN -->
+
+    <!-- Début de la setion FOOTER -->
+    <footer>
+
+        <div class="footer-film-strip">
+            <div class="barre"></div>
+        </div>
+
+        <div class="footer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="../public/facebook (1).png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="../public/instagram (1).png"
+                        alt="instagram"></a>
+                <a href="https://x.com/"><img src="../public/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com/"><img src="../public/youtube (1).png" alt="youtube"></a>
+            </div>
+        </div>
+
+        <h2 class="news">Newsletter</h2>
+
+        <form class="newsletter">
+            <input type="email" placeholder="ton@email.com" required>
+            <button class="newsletter-submit" type="submit">SUBSCRIBE</button>
+        </form>
+
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="./about.html">A propos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./privacy.html">Politiques de confidentialité</a></li>
+                <li><a href="./condition.html">Condition d'utilisation</a></li>
+            </ul>
+        </nav>
+
+        <div class="mention-légal">
+            <li>© Ciné Délices. Tous droits réservés. Expériences culinaires cinématographique.</li>
+        </div>
+    </footer>
+    <!-- Fin de la section FOOTER -->
+</body>
+
+</html>
