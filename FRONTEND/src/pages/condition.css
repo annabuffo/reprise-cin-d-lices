@@ -38,38 +38,42 @@
 
 /*MAIN*/
 
-.title-condition-utilisation {
-    text-align: center;
-    background-color: transparent;
+.condition-utilisation {
+    background-color: rgb(6, 6, 48);
+    border: 2px solid #d4af37;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
-.condition-utilisation {
-    border: 2px solid gray;
-    border-radius: 2%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: transparent;
+h1 {
+    color: #d4af37;
     background-color: rgb(6, 6, 48);
+    text-align: center;
 }
 
 h2 {
+    background-color: rgb(6, 6, 48);
     color: #d4af37;
     text-align: center;
-    background-color: rgb(6, 6, 48)
+    text-decoration: underline;
+    margin: 0;          /* important */
+    padding: 15px 0;
 }
 
 p {
+    background-color: rgb(6, 6, 48);
     color: white;
     text-align: center;
     font-size: large;
-    background-color: rgb(6, 6, 48)
+    margin: 0;          /* important */
+    padding: 10px 20px;
 }
 
 .email {
     background-color: rgb(6, 6, 48);
     color: white;
+    text-decoration: none;
 }
-
 
 /*PARTIE FOOTER*/
 

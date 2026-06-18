@@ -11,7 +11,7 @@
 
 .nav-header {
     text-align: center;
-    
+
 }
 
 .nav-barre-home-page {
@@ -84,6 +84,7 @@
 .redirection-register {
     text-align: center;
     color: white;
+    background-color: rgb(6, 6, 48);
 }
 
 p {

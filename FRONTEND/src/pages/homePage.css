@@ -39,20 +39,18 @@
 /*PARTIE MAIN*/
 .banner {
     text-align: center;
-    display: block;
-    max-width: 100%;
+    max-width: auto;
     background-color: #d4af37;
     padding: 20px;
     border: 1px solid #d4af37;
     color: white;
     margin-top: 10px;
-    display: grid;
 }
 
 .img-banner {
     border: 2px solid #d4af37;
     width: 100%;
-    height: 300px;
+    height: auto;
 }
 
 .container-banner button {
@@ -63,55 +61,40 @@
     margin-bottom: 10px;
 }
 
-.articles-page {
-    border: 2px solid red;
+.card  {
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+        border: 2px solid black;
     padding: 10%;
     margin: 10%;
     background-color: #d4af37 ;
 }
 
-.thrones,
-.pulp-fiction,
-.amélie,
-.chocolat,
-.grande-nuit,
-.babette,
-.h-f,
-.budapest {
-    text-align: center;
-    display: block;
-    margin: 0;
-    max-width: 190%;
-    background-color: rgb(255, 230, 0);
-    padding: 20px;
-    border: 1px solid transparent;
-    color: white;
-    margin-top: 10px;
-    display: grid;
-}
-
-.articles-page img {
-    border: 1px solid hwb(46 22% 17% / 0.644);
+.card img {
     width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 2px;
+    justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
-.articles-page h2 {
+.card h2 {
     color: black;
     background-color: transparent;
     text-align: left;
     margin-bottom: 5px;
 }
 
-.articles-page p {
+.card p {
     color: red;
     background-color: transparent;
     text-align: left;
     margin-top: 5px;
 }
 
-.articles-page button {
+.card button {
     color: black;
     background-color: transparent;
     text-align: left;

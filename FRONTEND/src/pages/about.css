@@ -11,7 +11,7 @@
 
 .nav-header {
     text-align: center;
-    
+
 }
 
 .nav-barre-home-page {
@@ -36,7 +36,38 @@
 
 /*FIN HEADER*/
 
+/*MAIN*/
 
+.section,
+.section-two,
+.section-three {
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.title-about {
+    color: #d4af37;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-contenu h2 {
+    text-decoration: underline;
+    color: #d4af37;
+    text-align: center;
+}
+
+.section-icon,
+p {
+    text-align: center;
+}
+
+
+
+/*FIN MAIN*/
 
 /*PARTIE FOOTER*/
 
@@ -78,7 +109,9 @@ nav ul li a {
     color: white;
 }
 
+
 .nav-barre-from-the-bottom {
+
     color: white;
     text-align: center;
 }
@@ -106,7 +139,6 @@ nav ul li a {
     object-fit: contain;
 }
 
-
 .news {
     color: white;
     text-align: center;
@@ -115,7 +147,6 @@ nav ul li a {
 .newsletter {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .newsletter input {
@@ -129,10 +160,8 @@ nav ul li a {
 
 .newsletter-submit {
     background-color: #d4af37;
-    padding: 18px;
-    border: 2px solid #d4af37;
+    padding: 10px;
     border: none;
-    color: black;
     font-weight: bold;
 }
 
@@ -141,8 +170,8 @@ nav ul li a {
 }
 
 .mention-légal {
-    color: white;
     margin-top: 30px;
+    color: white;
     text-align: center;
     border-top: 2px solid #d4af37;
     width: 100%;
